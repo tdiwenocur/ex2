@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0px;
+}
+.container {
+	margin: 0 auto;
+	
+}
+header {
+	margin-bottom: 25px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+header p{
+   margin-bottom: 25px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 1em; 
+    color: black;   
+}
+.form {
+	margin: auto;
+	width: 60%;
+}
+.h1 {
+    font-size: 2em;
+    
+}
+body {
+  font-family: 'Cutive', serif;
+    background-image: url(floralTR.png);
+  size: 16px;
+  color: #333;
+  padding: 24px;
+text-align: left;
+}
+
+form input {
+
+  margin: 24px 8px;
+  padding:20px;
+  background-color:#FFF;
+  color:#000;
+  font-size: 14px;
+}
+label {
+	margin-left: 0px;
+	margin-right:0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+form input[type="submit"], 
+form input[type="reset"]{
+	margin-left: 35px;
+	width: 150px;
+	height: 75px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #ff7373;
+}
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  width: 550px;
+}
+#myMsg{
+    width: 200px;
+    color: red;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 1.2em;
+    width: 500px;
+}
